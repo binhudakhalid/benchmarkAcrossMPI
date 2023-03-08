@@ -1,0 +1,4 @@
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_gather_algorithm 1 -np 16 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_gather_algorithm_basic_linear.jl 
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_gather_algorithm 0 -np 16 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_gather_algorithm_ignore.jl 
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_gather_algorithm 2 -np 16 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_gather_algorithm_binomial.jl 
+mpiexec  --mca mpi_show_mca_params all --mca coll_tuned_use_dynamic_rules true --mca coll_tuned_gather_algorithm 3 -np 16 julia --project ./mpiOpenMPI4.1.4-GCC-11.3.0/coll_tuned_gather_algorithm_linear_with_synchronization.jl 

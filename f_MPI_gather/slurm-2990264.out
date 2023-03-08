@@ -1,0 +1,153 @@
+cpu-bind=MASK - n2cn0556, task  0  0 [1762068]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+mpi/impi/2021.5.0-intel-compilers-2022.0.1
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: compiler/GCCcore/11.3.0 (required by: compiler/GCC/11.3.0, tools/XZ/5.2.5-GCCcore-11.3.0, lib/libxml2/2.9.13-GCCcore-11.3.0, system/libpciaccess/0.16-GCCcore-11.3.0, system/hwloc/2.7.1-GCCcore-11.3.0, lib/libevent/2.1.12-GCCcore-11.3.0, lib/libfabric/1.15.1-GCCcore-11.3.0, lib/PMIx/4.1.2-GCCcore-11.3.0, lib/UCC/1.0.0-GCCcore-11.3.0, lib/GDRCopy/2.3-GCCcore-11.3.0, lib/UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0), lib/UCX/1.12.1-GCCcore-11.3.0 (required by: lib/UCC/1.0.0-GCCcore-11.3.0, mpi/OpenMPI/4.1.4-GCC-11.3.0, lib/UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0), lib/zlib/1.2.12-GCCcore-11.3.0 (required by: lib/libxml2/2.9.13-GCCcore-11.3.0, lib/libevent/2.1.12-GCCcore-11.3.0, lib/PMIx/4.1.2-GCCcore-11.3.0, mpi/OpenMPI/4.1.4-GCC-11.3.0, lib/UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0), tools/binutils/2.38-GCCcore-11.3.0 (required by: compiler/GCC/11.3.0), tools/numactl/2.0.14-GCCcore-11.3.0 (required by: system/hwloc/2.7.1-GCCcore-11.3.0, lib/libfabric/1.15.1-GCCcore-11.3.0)
+-------------------------------------------------------------------------------
+
+The following have been reloaded with a version change:
+  1) compiler/GCCcore/11.3.0 => compiler/GCCcore/11.2.0
+  2) lib/UCX/1.12.1-GCCcore-11.3.0 => lib/UCX/1.11.2-GCCcore-11.2.0
+  3) lib/zlib/1.2.12-GCCcore-11.3.0 => lib/zlib/1.2.11-GCCcore-11.2.0
+  4) tools/binutils/2.38-GCCcore-11.3.0 => tools/binutils/2.37-GCCcore-11.2.0
+  5) tools/numactl/2.0.14-GCCcore-11.3.0 => tools/numactl/2.0.14-GCCcore-11.2.0
+
+┌ Info: MPI implementation identified
+│   libmpi = "libmpi"
+│   version_string = "Intel(R) MPI Library 2021.5 for Linux* OS\n"
+│   impl = "IntelMPI"
+│   version = v"2021.5.0"
+└   abi = "MPICH"
+┌ Info: MPIPreferences unchanged
+│   binary = "system"
+│   libmpi = "libmpi"
+│   abi = "MPICH"
+└   mpiexec = "mpiexec"
+IntelMPI
+2021.5.0
+cpu-bind=MASK - n2cn0556, task  0  0 [1762428]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+cpu-bind=MASK - n2cn0589, task  3  0 [1987085]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+cpu-bind=MASK - n2cn0587, task  2  0 [2643269]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+cpu-bind=MASK - n2cn0559, task  1  0 [1385710]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.5  Build 20211102 (id: 9279b7d62)
+[0] MPI startup(): Copyright (C) 2003-2021 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): Load tuning file: "/opt/software/pc2/EB-SW/software/impi/2021.5.0-intel-compilers-2022.0.1/mpi/2021.5.0/etc/tuning_generic_shm-ofi_mlx_hcoll.dat"
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       1762436  n2cn0556   {0}
+[0] MPI startup(): 1       1762437  n2cn0556   {16}
+[0] MPI startup(): 2       1762438  n2cn0556   {32}
+[0] MPI startup(): 3       1762439  n2cn0556   {48}
+[0] MPI startup(): 4       1385718  n2cn0559   {0}
+[0] MPI startup(): 5       1385719  n2cn0559   {16}
+[0] MPI startup(): 6       1385720  n2cn0559   {32}
+[0] MPI startup(): 7       1385721  n2cn0559   {48}
+[0] MPI startup(): 8       2643277  n2cn0587   {0}
+[0] MPI startup(): 9       2643278  n2cn0587   {16}
+[0] MPI startup(): 10      2643279  n2cn0587   {32}
+[0] MPI startup(): 11      2643280  n2cn0587   {48}
+[0] MPI startup(): 12      1987093  n2cn0589   {0}
+[0] MPI startup(): 13      1987094  n2cn0589   {16}
+[0] MPI startup(): 14      1987095  n2cn0589   {32}
+[0] MPI startup(): 15      1987096  n2cn0589   {48}
+[0] MPI startup(): I_MPI_ROOT=/opt/software/pc2/EB-SW/software/impi/2021.5.0-intel-compilers-2022.0.1/mpi/2021.5.0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_PIN_DOMAIN=1
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_ADJUST_GATHER=4
+[0] MPI startup(): I_MPI_DEBUG=6
+[0] MPI startup(): I_MPI_PMI_LIBRARY=/opt/software/slurm/default/lib/libpmi2.so
+[0] MPI startup(): I_MPI_PMI=pmi2
+[0] MPI startup(): threading: mode: direct
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: app_threads: 1
+[0] MPI startup(): threading: runtime: generic
+[0] MPI startup(): threading: is_threaded: 0
+[0] MPI startup(): threading: async_progress: 0
+[0] MPI startup(): threading: num_pools: 64
+[0] MPI startup(): threading: lock_level: global
+[0] MPI startup(): threading: enable_sep: 0
+[0] MPI startup(): threading: direct_recv: 1
+[0] MPI startup(): threading: zero_op_flags: 1
+[0] MPI startup(): threading: num_am_buffers: 1
+[0] MPI startup(): threading: library is built with per-vci thread granularity
+----------------------------------------
+Running benchmark OSU Gather with type Int8 on 16 MPI ranks
+
+size (bytes),iterations,min_time (seconds),max_time (seconds),avg_time (seconds)
+0,1048576,1.1746826900083107e-7,3.3721476822012875e-7,1.3250783736928895e-7
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 2990264 ON n2cn0556 CANCELLED AT 2023-02-16T20:41:59 ***
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+hmca_bcol_basesmuma_barrier_fanout_progress_x86 at /opt/mellanox/hcoll/lib/hcoll/hmca_bcol_basesmuma.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+slurmstepd: error: *** STEP 2990264.0 ON n2cn0556 CANCELLED AT 2023-02-16T20:41:59 ***
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+hmca_coll_ml_barrier_intra at /opt/mellanox/hcoll/lib/libhcoll.so (unknown line)
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.5.0-intel-compilers-2022.0.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2

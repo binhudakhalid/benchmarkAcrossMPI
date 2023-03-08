@@ -1,0 +1,78 @@
+cpu-bind=MASK - n2cn0810, task  0  0 [588481]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+mpi/impi/2021.7.1-intel-compilers-2022.2.1
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: compiler/GCCcore/11.3.0 (required by: compiler/GCC/11.3.0, tools/XZ/5.2.5-GCCcore-11.3.0, lib/libxml2/2.9.13-GCCcore-11.3.0, system/libpciaccess/0.16-GCCcore-11.3.0, system/hwloc/2.7.1-GCCcore-11.3.0, lib/libevent/2.1.12-GCCcore-11.3.0, lib/libfabric/1.15.1-GCCcore-11.3.0, lib/PMIx/4.1.2-GCCcore-11.3.0, lib/UCC/1.0.0-GCCcore-11.3.0, lib/GDRCopy/2.3-GCCcore-11.3.0, lib/UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0), lib/UCX/1.12.1-GCCcore-11.3.0 (required by: lib/UCC/1.0.0-GCCcore-11.3.0, mpi/OpenMPI/4.1.4-GCC-11.3.0, lib/UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0), lib/zlib/1.2.12-GCCcore-11.3.0 (required by: lib/libxml2/2.9.13-GCCcore-11.3.0, lib/libevent/2.1.12-GCCcore-11.3.0, lib/PMIx/4.1.2-GCCcore-11.3.0, mpi/OpenMPI/4.1.4-GCC-11.3.0, lib/UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0), tools/binutils/2.38-GCCcore-11.3.0 (required by: compiler/GCC/11.3.0), tools/numactl/2.0.14-GCCcore-11.3.0 (required by: system/hwloc/2.7.1-GCCcore-11.3.0, lib/libfabric/1.15.1-GCCcore-11.3.0)
+-------------------------------------------------------------------------------
+
+The following have been reloaded with a version change:
+  1) compiler/GCCcore/11.3.0 => compiler/GCCcore/12.2.0
+  2) lib/UCX/1.12.1-GCCcore-11.3.0 => lib/UCX/1.13.1-GCCcore-12.2.0
+  3) lib/zlib/1.2.12-GCCcore-11.3.0 => lib/zlib/1.2.12-GCCcore-12.2.0
+  4) tools/binutils/2.38-GCCcore-11.3.0 => tools/binutils/2.39-GCCcore-12.2.0
+  5) tools/numactl/2.0.14-GCCcore-11.3.0 => tools/numactl/2.0.16-GCCcore-12.2.0
+
+┌ Info: MPI implementation identified
+│   libmpi = "libmpi"
+│   version_string = "Intel(R) MPI Library 2021.7 for Linux* OS\n"
+│   impl = "IntelMPI"
+│   version = v"2021.7.0"
+└   abi = "MPICH"
+┌ Info: MPIPreferences unchanged
+│   binary = "system"
+│   libmpi = "libmpi"
+│   abi = "MPICH"
+└   mpiexec = "mpiexec"
+IntelMPI
+2021.7.0
+cpu-bind=MASK - n2cn0811, task  1  0 [3704637]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+cpu-bind=MASK - n2cn0810, task  0  0 [588837]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.7  Build 20221022 (id: f7b29a2495)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): max number of MPI_Request per vci: 67108864 (pools: 1)
+[0] MPI startup(): libfabric provider: mlx
+[0] MPI startup(): File "" not found
+[0] MPI startup(): Load tuning file: "/opt/software/pc2/EB-SW/software/impi/2021.7.1-intel-compilers-2022.2.1/mpi/2021.7.1/etc/tuning_generic_shm-ofi.dat"
+[0] MPI startup(): threading: mode: direct
+[0] MPI startup(): threading: vcis: 1
+[0] MPI startup(): threading: app_threads: -1
+[0] MPI startup(): threading: runtime: generic
+[0] MPI startup(): threading: progress_threads: 0
+[0] MPI startup(): threading: async_progress: 0
+[0] MPI startup(): threading: lock_level: global
+[0] MPI startup(): tag bits available: 30 (TAG_UB value: 1073741823) 
+[0] MPI startup(): source bits available: 3 (Maximal number of rank: 7) 
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       588847   n2cn0810   {0}
+[0] MPI startup(): 1       588848   n2cn0810   {16}
+[0] MPI startup(): 2       3704646  n2cn0811   {0}
+[0] MPI startup(): 3       3704647  n2cn0811   {16}
+[0] MPI startup(): I_MPI_ROOT=/opt/software/pc2/EB-SW/software/impi/2021.7.1-intel-compilers-2022.2.1/mpi/2021.7.1
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_PIN_DOMAIN=1
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): I_MPI_ADJUST_GATHER=4
+[0] MPI startup(): I_MPI_DEBUG=6
+[0] MPI startup(): I_MPI_PMI_LIBRARY=/opt/software/slurm/default/lib/libpmi2.so
+[0] MPI startup(): I_MPI_PMI=pmi2
+----------------------------------------
+Running benchmark OSU Gather with type Int8 on 4 MPI ranks
+
+size (bytes),iterations,min_time (seconds),max_time (seconds),avg_time (seconds)
+0,1048576,1.0450271892281648e-7,3.376231667573393e-7,1.6388011925272394e-7
+1,1048576,2.1985777576283283e-7,0.0038956813393653533,0.0020092843244938208
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 3018608 ON n2cn0810 CANCELLED AT 2023-02-17T20:53:27 ***
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+
+signal (15): Terminated
+in expression starting at /scratch/hpc-prf-mpibj/ya/f_MPI_gather/mpiimpi2021.7.1-intel-compilers-2022.2.1/I_MPI_ADJUST_GATHER_Binomial_with_segmentation.jl:2
+slurmstepd: error: *** STEP 3018608.0 ON n2cn0810 CANCELLED AT 2023-02-17T20:53:27 ***
